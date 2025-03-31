@@ -1,3 +1,54 @@
+body {
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the background in place */
+  background-size: cover; /* Ensures the gradient covers the whole page */
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
 h1 {
-  color: red;
+  color: #ffb6b9;
+  text-align: center;
+}
+form {
+  padding: 10px 30px;
+  margin: 0 auto;
+  display: flex;
+}
+.writing {
+  padding: 20px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 30px;
+  color: #fae3d9;
+  border: 1px solid #fae3d9;
+  background-color: #bbded6;
+}
+.submit-button {
+  margin-left: 10px;
+  background: #bbded6;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 14px 24px;
+}
+.poem {
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 60px;
+  color: #ffb6b9;
+}
+footer {
+  color: #61c0bf;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: #bbded6;
 }
