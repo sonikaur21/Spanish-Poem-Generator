@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -12,7 +14,7 @@
         <h1>AI Spanish Poem Generator</h1>
       </header>
       <main>
-        <form class="form">
+        <form class="form" id="poem-generator-form">
           <input
             type=" "
             placeholder="Enter the topic of the spanish poem"
@@ -21,10 +23,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          las rosas son azules <br />
-          los rosas son blancas
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
