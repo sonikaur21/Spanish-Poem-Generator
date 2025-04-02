@@ -15,7 +15,10 @@ function generatePoem(event) {
     "you are a romantic poet expert and love to write short poems. your mission is to generate in basic HTML style and  five separate lines. after each comma, start below to a new line. don't show the word html. don't add a title ";
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
-  console.log("generating poem");
+  let poemElement = document.querySelector("#poem");
+  poemElement.classList.remove("hidden");
+  poemElement.innerHTML = `<div class= "generating"> ⌛ Generating a spanish poem about ${searchInputElement.value}</div>`;
+
   axios.get(apiUrl).then(displayPoem);
 }
 
