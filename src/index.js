@@ -12,7 +12,7 @@ function generatePoem(event) {
   let apiKey = "79e2b848de54da3deo0aafeff8t7fa08";
   let prompt = `generate a poem about ${searchInputElement.value}`;
   let context =
-    "you are a romantic poet expert and love to write short poems. your mission is to generate in basic HTML style and  five separate lines. after each comma, start below to a new line. don't show the word html. don't add a title ";
+    "you are a romantic poet expert and love to write short poems. your mission is to generate in basic HTML style and five separate lines. don't show the word html. add a title in the same font as the paragraph. Each time there is a comma, insert a <br> tag so the next part starts on a new line.";
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   let poemElement = document.querySelector("#poem");

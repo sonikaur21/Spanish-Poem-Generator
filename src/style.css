@@ -1,23 +1,28 @@
 body {
-  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background: #f2f9f1;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Keeps the background in place */
   background-size: cover; /* Ensures the gradient covers the whole page */
 }
 
 .container {
-  margin: 120px auto;
   max-width: 600px;
+  margin: 30px auto;
+  color: #155263;
+  background: #ddeedf;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 h1 {
-  color: #ffb6b9;
+  color: #5c715e;
   text-align: center;
 }
 .hint {
   line-height: 1.5;
-  margin-top: 5px;
+  margin-top: 12px;
   opacity: 0.6;
-  font-size: 12px;
+  font-size: 14px;
   position: relative;
   left: 50px;
   top: -10px;
@@ -31,33 +36,33 @@ form {
   padding: 20px;
   width: 80%;
   font-size: 16px;
-  border-radius: 30px;
-  color: #fae3d9;
-  border: 1px solid #fae3d9;
-  background-color: #bbded6;
+  border-radius: 20px;
+  color: #5c715e;
+  border: 1px solid #b6cdbd;
+  background-color: #b6cdbd;
 }
 .submit-button {
   margin-left: 10px;
-  background: #bbded6;
+  background: #b6cdbd;
   color: white;
   border: none;
   font-size: 16px;
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 14px 24px;
 }
 .poem {
   font-size: 20px;
   padding: 20px;
   margin-left: 60px;
-  color: #ffb6b9;
+  color: #5c715e;
 }
 footer {
-  color: #61c0bf;
-  font-size: 13px;
+  color: #5c715e;
+  font-size: 14px;
   text-align: center;
   margin-top: 50px;
 }
 a {
   text-decoration: none;
-  color: #bbded6;
+  color: #085f63;
 }
